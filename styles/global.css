@@ -1,0 +1,22 @@
+:root {
+  font-size: 62.5%; /* 1rem = 10px*/
+  font-family: "roboto", sans-serif;
+  --CLR-WHITE: #fff;
+  --BLUE: #1268ae;
+  --ROSE: #ff8b87;
+  --TITLE: #1a1442;
+  --GREEN: #267800;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: black;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}

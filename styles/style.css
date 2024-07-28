@@ -1,0 +1,596 @@
+/* BODY */
+body {
+  background-color: var(--CLR-WHITE);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* HEADER */
+header {
+  width: 100%;
+  height: 10rem;
+  z-index: 99;
+  position: relative;
+  background-color: var(--CLR-WHITE);
+  padding: 2rem 0;
+}
+
+main {
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo {
+  width: 15rem;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+.navbar-listContainer {
+  display: flex;
+  align-items: center;
+}
+.nav-listItem {
+  padding: 10px 25px;
+  font-size: 1.7rem;
+}
+.pegada {
+  font-size: 2.2rem;
+  color: var(--ROSE);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.navbar-button {
+  background-color: var(--BLUE);
+  border-radius: 4px;
+}
+.navbar-button a {
+  color: var(--CLR-WHITE);
+  padding: 15px 40px;
+  display: flex;
+  align-items: center;
+  font-size: 1.7rem;
+  gap: 7px;
+}
+
+/* MAIN */
+.wpp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: var(--GREEN);
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 999;
+}
+
+#home {
+  width: 100%;
+}
+
+#home .bg-cat {
+  width: 100%;
+  margin-top: -8rem;
+}
+
+.home-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.content {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
+.title-h1 {
+  font-family: "SF-New-Republic";
+  color: var(--TITLE);
+  font-size: 4rem;
+}
+.adotar {
+  margin-top: 20px;
+  background-color: var(--BLUE);
+  border-radius: 4px;
+  width: 70%;
+}
+.adotar a {
+  color: var(--CLR-WHITE);
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  gap: 7px;
+}
+
+.ball-container {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  z-index: 5;
+  margin-top: -80px;
+}
+
+.ball-container .ball {
+  border: 1px solid white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.ball-container .full {
+  background-color: white;
+  cursor: pointer;
+}
+/*ABOUUT*/
+#about {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-header {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.about-header button a {
+  padding: 10px 40px;
+  background-color: var(--ROSE);
+  border-radius: 5px;
+  color: var(--CLR-WHITE);
+  cursor: pointer;
+}
+.about-title {
+  font-family: "SF-New-Republic";
+  font-size: 3rem;
+  color: var(--TITLE);
+  text-align: center;
+  padding: 10px;
+}
+.about-content {
+  display: flex;
+  gap: 20px;
+  width: 90%;
+  padding: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-infos-left {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 150px;
+}
+.about-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.about-infos-left p {
+  font-size: 13px;
+}
+.about-icons {
+  padding: 20px;
+  background-color: var(--ROSE);
+  border-radius: 50%;
+}
+.about-icons img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+.about-ball {
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #ff8e8a3f, #99555300);
+}
+.about-ball2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+  background-color: var(--ROSE);
+}
+.about-ball-infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem;
+}
+.about-cat {
+  width: 35%;
+  margin-bottom: 15px;
+}
+/* .about-ball img {
+  margin-bottom: 15px;
+} */
+.about-ball p {
+  color: var(--CLR-WHITE);
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.about-img {
+  display: flex;
+  justify-self: flex-end;
+  margin-bottom: -5px;
+  width: 25%;
+}
+.about-infos-right {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  flex-direction: column;
+}
+.about-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.about-infos-right p {
+  font-size: 13px;
+}
+.about-footer {
+  margin-bottom: 40px;
+}
+
+.about-footer a {
+  color: var(--CLR-WHITE);
+  background-color: var(--BLUE);
+  border-radius: 5px;
+  padding: 20px 50px;
+  display: flex;
+  font-size: 1.5rem;
+  gap: 7px;
+  text-align: center;
+}
+
+/*HELP*/
+#help {
+  background-color: var(--ROSE);
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 30px;
+}
+.help-header {
+  text-align: center;
+  margin: auto;
+}
+.help-header h2 {
+  color: var(--CLR-WHITE);
+  font-size: 40px;
+  font-family: "SF-New-Republic";
+  margin-bottom: 30px;
+}
+.help-header select {
+  padding: 15px 20px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid var(--CLR-WHITE);
+  background-color: var(--ROSE);
+  color: var(--CLR-WHITE);
+  font-size: 16px;
+  margin: 0 10px 30px 10px;
+  padding-right: 50px;
+}
+.help-button {
+  border-radius: 5px;
+  background-color: var(--BLUE);
+  border: 1px solid var(--BLUE);
+  height: 50px;
+  margin: 0 10px 30px 10px;
+}
+
+.help-button a {
+  padding: 15px 40px;
+  font-size: 16px;
+  color: var(--CLR-WHITE);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+.help-cat {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+.help-cats {
+  width: 100%;
+  height: auto;
+}
+
+.help-content {
+  max-width: 25%;
+  text-align: center;
+}
+.help-namecat {
+  margin-top: -40px;
+  width: 160px;
+  margin-left: 120px;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.help-namecat h3 {
+  color: var(--CLR-WHITE);
+  font-size: 20px;
+}
+.help-namecat p {
+  color: var(--CLR-WHITE);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.help-namecat img {
+  margin-right: 5px;
+}
+
+.help-gen {
+  width: min-content;
+  padding: 15px;
+  border-radius: 30px;
+  background-color: var(--BLUE);
+  margin-left: 20px;
+  margin-top: -65px;
+  position: relative;
+  /* -webkit-box-shadow: 127px 200px 75px -70px rgba(18, 104, 174, 1); */
+  /* -moz-box-shadow: 127px 200px 75px -70px rgba(18, 104, 174, 1); */
+  /* box-shadow: 127px 200px 75px -70px rgba(18, 104, 174, 1); */
+  box-shadow: 30px 30px 100px -10px rgba(18, 104, 174, 1);
+}
+.help-gen img {
+  width: 45px;
+  height: 60px;
+}
+.help-name {
+  margin-top: 10px;
+}
+
+.help-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  flex-direction: column;
+}
+.help-buttonfooter {
+  background: none;
+  border: none;
+}
+
+.help-buttonfooter a {
+  color: var(--CLR-WHITE);
+  background-color: var(--ROSE);
+  border-radius: 10px;
+  display: flex;
+  width: 300px;
+  height: 9vh;
+  gap: 10px;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--CLR-WHITE);
+}
+.help-footerimg {
+  width: 100%;
+  margin-bottom: -2px;
+  margin-top: 40px;
+}
+/*NOTICES*/
+.notices-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+  gap: 30px;
+}
+.notices-header h2 {
+  font-family: "SF-New-Republic";
+  font-size: 30px;
+  color: var(--TITLE);
+}
+.notices-header {
+  font-size: 13px;
+  margin-bottom: 90px;
+}
+.notices-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.notices-content-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.notices-content-right,
+.notices-content-left {
+  width: 50%;
+}
+
+.notices-content-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.notices-degrade {
+  margin-bottom: -120px;
+  z-index: 99;
+  border-radius: 10px;
+
+  background-image: linear-gradient(to right, #1250aee0, #99555300);
+}
+.notices-content-btn {
+  z-index: 99;
+  width: 465px;
+  height: 10vh;
+  background-color: var(--BLUE);
+  color: var(--CLR-WHITE);
+  font-family: "SF-New-Republic";
+  font-size: 25px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.notices-content-btn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 9vh;
+  background-color: var(--BLUE);
+  color: var(--CLR-WHITE);
+  font-size: 16px;
+  border-radius: 7px;
+  gap: 8px;
+  margin-right: -10px;
+  position: absolute;
+  margin-top: 550px;
+}
+.img-notices {
+  width: 100%;
+  margin-bottom: -3px;
+}
+
+#question {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffe7e7;
+  position: relative;
+  border: 1px solid #ffe7e7;
+}
+
+.pegada-left,
+.pegada-right {
+  width: 300px;
+}
+
+.pegada-right {
+  position: absolute;
+  bottom: 10px;
+  right: -80px;
+  transform: rotate(315deg);
+}
+.pegada-left {
+  position: absolute;
+  top: -50px;
+  left: -80px;
+  transform: rotate(135deg);
+}
+.question-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.question-header img {
+  width: 30px;
+  height: 30px;
+  margin-top: 80px;
+  margin-bottom: 5px;
+}
+.question-header h2 {
+  font-family: "SF-New-Republic";
+  font-size: 35px;
+  color: var(--TITLE);
+}
+.question-content {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+.question-conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: first baseline;
+  width: 100%;
+  height: 10vh;
+  background-color: var(--CLR-WHITE);
+  border-radius: 6px;
+}
+.question-conteiner p {
+  color: #214a696e;
+  margin: 10px;
+}
+.question-conteiner .question-title {
+  color: #1a1442;
+  font-size: 15px;
+  width: 90%;
+}
+.question-conteiner img {
+  margin-right: 15px;
+  cursor: pointer;
+}
+.question-conteiner-active {
+  width: 100%;
+  height: 30vh;
+  background-color: var(--ROSE);
+  border-radius: 6px;
+}
+.question-active {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.question-conteiner-active p {
+  color: #ffffffc2;
+  margin: 10px;
+}
+.question-conteiner-active .question-title {
+  color: var(--CLR-WHITE);
+  font-size: 15px;
+  width: 90%;
+}
+.question-conteiner-active img {
+  margin-right: 15px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+.question-resp {
+  font-size: 15px;
+}
+.question-bg {
+  position: absolute;
+  width: 100%;
+  margin-top: -10px;
+}

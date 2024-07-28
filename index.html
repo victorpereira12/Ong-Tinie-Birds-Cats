@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="styles/fonts.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ong Tinie Birds Cats</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img class="logo" src="./assets/img/logo.png" alt="Logo" />
+
+        <div class="nav-container">
+          <ul class="navbar-listContainer">
+            <li>
+              <a href="#home" class="nav-listItem">Home</a>
+            </li>
+
+            <li>
+              <a class="pegada nav-listItem" href="#about">
+                <img class="" src="./assets/img/pegada.png" alt="pegada rosa" />
+                Sobre
+              </a>
+            </li>
+
+            <li>
+              <a href="#help" class="nav-listItem">Quero Ajudar</a>
+            </li>
+
+            <li>
+              <a href="#notices" class="nav-listItem">Notícias</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-listItem">Contato</a>
+            </li>
+          </ul>
+
+          <button class="navbar-button">
+            <a href="#">
+              Quero ajudar
+              <img src="./assets/img/pegada-white.png" alt="Pegada branca" />
+            </a>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <a class="wpp" href="#">
+        <img src="./assets/img/wpp.png" alt="logo wpp" />
+      </a>
+
+      <section id="home">
+        <div class="home-content">
+          <img
+            class="bg-cat"
+            src="./assets/img/fundo.png"
+            alt="Foto de um gato"
+          />
+
+          <div class="content">
+            <h1 class="title-h1">
+              Doe amor. <br />
+              doe lar! <br />
+              Adote um gatinho
+            </h1>
+
+            <button class="adotar">
+              <a href="#">
+                Quero adotar
+                <img src="./assets/img/pegada-white.png" alt="Pegada branca" />
+              </a>
+            </button>
+          </div>
+
+          <div class="ball-container">
+            <div class="ball full"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="about-header">
+          <button><a href="#">Apoie e faça sua parte</a></button>
+          <h2 class="about-title">
+            Apoie e colabore para que <br />
+            mais gatinhos encontre uma família
+          </h2>
+        </div>
+
+        <div class="about-content">
+          <div class="about-infos-left">
+            <div class="about-left">
+              <p>
+                +1.2 mil gatinhos <br />
+                adotados em 2024
+              </p>
+              <div class="about-icons">
+                <img src="./assets/img/cat-about.png" alt="foto de um gato " />
+              </div>
+            </div>
+            <div class="about-left">
+              <p>
+                +80 toneladas de ração <br />
+                doadas desde 2023
+              </p>
+              <div class="about-icons">
+                <img
+                  src="./assets/img/caixa.png"
+                  alt="foto de uma caixa de gato gato"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="about-infos-center">
+            <div class="about-ball">
+              <div class="about-ball2">
+                <div class="about-ball-infos">
+                  <img
+                    class="about-cat"
+                    src="./assets/img/about.png"
+                    alt="gato logo"
+                  />
+                  <p>
+                    Mais de 5.4mil gatinhos adotados <br />desde 2016 no Brasil.
+                  </p>
+                </div>
+
+                <img
+                  class="about-img"
+                  src="./assets/img/about-pegada.png"
+                  alt="Pegada branca"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="about-infos-right">
+            <div class="about-right">
+              <div class="about-icons">
+                <img src="./assets/img/pegadaMão.png" alt="foto de um gato " />
+              </div>
+              <p>
+                +305 protetores apoiados <br />
+                durante o ano
+              </p>
+            </div>
+            <div class="about-right">
+              <div class="about-icons">
+                <img src="./assets/img/tesoura.png" alt="foto de um gato " />
+              </div>
+              <p>
+                +2.1 castrações <br />
+                de gatos realizadas
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-footer">
+          <button class="about-footer">
+            <a href="#">
+              Apoie agora mesmo
+              <img src="./assets/img/pegada-white.png" alt="Pegada branca" />
+            </a>
+          </button>
+        </div>
+      </section>
+
+      <section id="help">
+        <div class="help-header">
+          <h2>Gatos para adoção</h2>
+
+          <div class="input">
+            <!-- <label for="Estado">Estado:</label> -->
+            <select id="Estado" name="Estado">
+              <option value="Estado" selected>Estado:</option>
+            </select>
+
+            <select name="Cidade">
+              <option value="Cidade">Cidade:</option>
+            </select>
+
+            <select name="Gênero">
+              <option value="Gênero">Gênero:</option>
+            </select>
+
+            <button class="help-button">
+              <a href="#">
+                Buscar
+                <img src="./assets/img/pegada-white.png" alt="Pegada branca" />
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="help-cat">
+          <div class="help-content">
+            <img
+              class="help-cats"
+              src="./assets/img/milk.png"
+              alt="foto do gato milk"
+            />
+            <div class="help-name">
+              <div class="help-gen">
+                <img src="./assets/img/macho.png" alt="simbolo de macho" />
+              </div>
+              <div class="help-namecat">
+                <h3>Milk</h3>
+                <p>MACHO/FILHOTE</p>
+                <p>
+                  <img src="./assets/img/localização.png" alt="Localização" />
+                  Tiete, São Paulo SP
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="help-content">
+            <img
+              class="help-cats"
+              src="./assets/img/Tinie.png"
+              alt="Foto de tinie"
+            />
+            <div class="help-name">
+              <div class="help-gen">
+                <img src="./assets/img/macho.png" alt="simbolo de macho" />
+              </div>
+              <div class="help-namecat">
+                <h3>Tini</h3>
+                <p>MACHO/FILHOTE</p>
+                <p>
+                  <img src="./assets/img/localização.png" alt="Localização" />
+                  Tiete, São Paulo SP
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="help-content">
+            <img
+              class="help-cats"
+              src="./assets/img/zion.png"
+              alt="Foto de Zion"
+            />
+            <div class="help-name">
+              <div class="help-gen">
+                <img src="./assets/img/femea.png" alt="simbolo de femea" />
+              </div>
+              <div class="help-namecat">
+                <h3>Zion</h3>
+                <p>FEMEA/FILHOTE</p>
+                <p>
+                  <img src="./assets/img/localização.png" alt="Localização" />
+                  Sumaré, São Paulo SP
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="help-content">
+            <img
+              class="help-cats"
+              src="./assets/img/bird.png"
+              alt="foto do gato bird"
+            />
+            <div class="help-name">
+              <div class="help-gen">
+                <img src="./assets/img/femea.png" alt="simbolo de femea" />
+              </div>
+              <div class="help-namecat">
+                <h3>Bird</h3>
+                <p>FEMEA/FILHOTE</p>
+                <p>
+                  <img src="./assets/img/localização.png" alt="Localização" />
+                  Cotia, São Paulo SP
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="help-footer">
+          <button class="help-buttonfooter">
+            <a href="#">
+              Ver Todos
+              <img src="./assets/img/pegada-white.png" alt="pegada branca" />
+            </a>
+          </button>
+          <img
+            class="help-footerimg"
+            src="./assets/img/bg-help.png"
+            alt="pirâmides brancas"
+          />
+        </div>
+      </section>
+
+      <section id="notices">
+        <div class="notices-header">
+          <h2>Conheça a ONG TinieBird Cats</h2>
+          <p>
+            Existem muitos <b>gatos a espera de um lar</b> e com muito amor para
+            oferecer. Nós fazemos essa ponte <br />para que você adote um amigo
+            e faça a diferença na vida de um animal carente.
+          </p>
+        </div>
+
+        <div class="notices-content">
+          <div class="notices-degrade">
+            <button class="notices-content-btn">Como tudo começou</button>
+          </div>
+          <div class="notices-content-container">
+            <div class="notices-content-right">
+              <img class="img-notices" src="./assets/img/cat.png" alt="" />
+            </div>
+
+            <div class="notices-content-left">
+              <img class="img-notices" src="./assets/img/timeLine.png" alt="" />
+              <button class="notices-content-btn2">
+                Saiba mais
+                <img src="./assets/img/pegada-white.png" alt="Pegada branca" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="question">
+        <img class="pegada-left" src="./assets/img/pegada (2).svg" alt="" />
+        <img class="pegada-right" src="./assets/img/pegada (2).svg" alt="" />
+
+        <div class="question-header">
+          <img src="./assets/img/exclamação.png" alt="Ponto de exclamação" />
+          <h2>Perguntas Frequentes</h2>
+        </div>
+        <div class="question-content">
+          <div class="question-conteiner">
+            <p>0.1</p>
+            <p class="question-title">Como posso adotar um gatinho?</p>
+            <img
+              src="./assets/img/seta-rose.png"
+              alt="seta apontada pra baixo"
+            />
+          </div>
+          <div class="question-conteiner-active">
+            <div class="question-active">
+              <p>0.2</p>
+              <p class="question-title">As adoções são gratuitas?</p>
+              <img
+                src="./assets/img/seta-white.png"
+                alt="seta apontada pra baixo"
+              />
+            </div>
+            <p class="question-resp">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              <br />
+              ratione tempore nulla nostrum facilis mollitia incidunt sit et!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+              Molestiae quas magni beatae totam, neque itaque cum iusto minima
+              atque eos nulla deleniti delectus recusandae explicabo quasi?
+              Asperiores deserunt commodi corrupti.
+            </p>
+          </div>
+          <div class="question-conteiner">
+            <p>0.3</p>
+            <p class="question-title">Os gatos para adoção são castrados?</p>
+            <img
+              src="./assets/img/seta-rose.png"
+              alt="seta apontada pra baixo"
+            />
+          </div>
+          <div class="question-conteiner">
+            <p>0.4</p>
+            <p class="question-title">
+              O que preciso saber antes de adotar um gato?
+            </p>
+            <img
+              src="./assets/img/seta-rose.png"
+              alt="seta apontada pra baixo"
+            />
+          </div>
+          <div class="question-conteiner">
+            <p>0.5</p>
+            <p class="question-title">
+              Como fazer a adaptação em casa de um gato adotado?
+            </p>
+            <img
+              src="./assets/img/seta-rose.png"
+              alt="seta apontada pra baixo"
+            />
+          </div>
+        </div>
+        <img class="question-bg" src="./assets/img/bg-question.png" alt="" />
+      </section>
+    </main>
+
+    <!-- <footer></footer> -->
+  </body>
+</html>
