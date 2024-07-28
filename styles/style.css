@@ -1,0 +1,241 @@
+/* BODY */
+body {
+  background-color: var(--CLR-WHITE);
+  min-height: 100vh;
+}
+
+/* HEADER */
+header {
+  width: 100%;
+  height: 10rem;
+  z-index: 99;
+  position: relative;
+  background-color: var(--CLR-WHITE);
+  padding: 2rem 0;
+}
+
+main {
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo {
+  width: 15rem;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+.navbar-listContainer {
+  display: flex;
+  align-items: center;
+}
+.nav-listItem {
+  padding: 10px 25px;
+  font-size: 1.7rem;
+}
+.pegada {
+  font-size: 2.2rem;
+  color: var(--ROSE);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.navbar-button {
+  background-color: var(--BLUE);
+  border-radius: 4px;
+}
+.navbar-button a {
+  color: var(--CLR-WHITE);
+  padding: 15px 40px;
+  display: flex;
+  align-items: center;
+  font-size: 1.7rem;
+  gap: 7px;
+}
+
+/* MAIN */
+.wpp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: var(--GREEN);
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
+#home {
+  width: 100%;
+}
+
+#home .bg-cat {
+  width: 100%;
+  margin-top: -7rem;
+}
+
+.home-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.content {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
+.title-h1 {
+  font-family: "SF-New-Republic";
+  color: var(--TITLE);
+  font-size: 4rem;
+}
+.adotar {
+  margin-top: 20px;
+  background-color: var(--BLUE);
+  border-radius: 4px;
+  width: 70%;
+}
+.adotar a {
+  color: var(--CLR-WHITE);
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  gap: 7px;
+}
+
+.ball-container {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  z-index: 5;
+  margin-top: -80px;
+}
+
+.ball-container .ball {
+  border: 1px solid white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.ball-container .full {
+  background-color: white;
+  cursor: pointer;
+}
+/*ABOUUT*/
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-header {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.about-header button a {
+  padding: 10px 40px;
+  background-color: var(--ROSE);
+  border-radius: 5px;
+  color: var(--CLR-WHITE);
+  cursor: pointer;
+}
+.about-title {
+  font-family: "SF-New-Republic";
+  font-size: 3rem;
+  color: var(--TITLE);
+  text-align: center;
+  padding: 10px;
+}
+.about-content {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+}
+.about-infos-left {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.about-infos-left p {
+  font-size: 13px;
+}
+.about-icons {
+  padding: 20px;
+  background-color: var(--ROSE);
+  border-radius: 50%;
+}
+.about-ball2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+  background-color: var(--ROSE);
+}
+
+.about-ball {
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(250, 195, 195);
+}
+.about-ball img {
+  width: 25%;
+  margin-bottom: 15px;
+}
+.about-ball p {
+  color: var(--CLR-WHITE);
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.about-infos-right {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.about-footer {
+  background-color: var(--BLUE);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.about-footer a {
+  color: var(--CLR-WHITE);
+
+  padding: 20px 50px;
+  display: flex;
+  font-size: 1.5rem;
+  gap: 7px;
+  text-align: center;
+}
