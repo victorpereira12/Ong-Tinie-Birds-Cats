@@ -594,3 +594,362 @@ nav {
   width: 100%;
   margin-top: -10px;
 }
+/*DEPOIMENTOS*/
+
+#depoimentos {
+  width: 100%;
+}
+
+.aspas-depoimentos {
+  top: 150px;
+  width: 250px;
+  position: relative;
+}
+.depoimentos-infos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -60px;
+  margin-bottom: 100px;
+  position: relative;
+}
+.depoimentos-infos .chevron {
+  cursor: pointer;
+}
+.depoimentos-infos h1 {
+  font-family: "SF-New-Republic";
+  color: var(--TITLE);
+  font-size: 30px;
+}
+.depoimentos-infos p {
+  color: #1a1442;
+  font-size: 13px;
+  /* margin-top: 15px; */
+}
+.depoimentos {
+  margin-left: 250px;
+}
+.depoimentos-people {
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  height: 230px;
+  text-align: center;
+  /* -webkit-box-shadow: 127px 200px 75px -70px  #ff8c8c; */
+  /* -moz-box-shadow: 127px 200px 75px -70px  #ff8c8c; */
+  /* box-shadow: 127px 200px 75px -70px  #ff8c8c; */
+  box-shadow: 0px 0px 100px 0px #ff8c8c;
+}
+.depoimentos-people.anaclara {
+  position: absolute;
+  right: -100px;
+}
+.depoimentos-peoplecontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.depoimentos-peoplecontainer img {
+  width: 60px;
+  height: 60px;
+}
+.depoimentos-peoplecontainer .description-depoimentos {
+  margin-top: 13px;
+}
+.img-border {
+  padding: 10px 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #ff8e8a3f, #99555300);
+  margin-top: -60px;
+  margin-bottom: 15px;
+}
+.depoimentos-peoplecontainer h3 {
+  font-size: 15px;
+}
+.depoimentos-peoplecontainer p {
+  /* margin: 10px; */
+  font-size: 15px;
+  /* margin-bottom: 30px; */
+}
+
+#partners {
+  width: 100%;
+  padding-top: 50px;
+  position: relative;
+}
+
+.partners-title {
+  font-family: "SF-New-Republic";
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+.partners-line {
+  position: absolute;
+  top: -350px;
+  z-index: -3;
+}
+
+.partners-team {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.partners-team .partners-logo {
+  width: 200px;
+}
+
+.partners-ball-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+  gap: 7px;
+  z-index: 5;
+}
+
+.partners-ball-container .ball-partners {
+  border: 1px solid #ff8b87;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.partners-ball-container .ball-partners-full {
+  background-color: #ff8b87;
+  cursor: pointer;
+}
+
+#contact {
+  width: 100%;
+  position: relative;
+  padding-top: 50px;
+}
+
+.contact-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 7rem;
+}
+.contact-content .cat {
+  width: 30%;
+}
+
+.contact-bg {
+  position: absolute;
+  z-index: -3;
+}
+.contact-bg-triangule {
+  position: absolute;
+  z-index: -2;
+  right: -200px;
+  width: 800px;
+}
+
+.contact-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form-title {
+  font-size: 4.5rem;
+  font-family: "SF-New-Republic";
+  font-weight: bold;
+  color: #fff;
+}
+
+.form-input {
+  border: 1px solid #fff;
+  border-radius: 6px;
+  background: transparent;
+  height: 64px;
+  padding: 18px 26px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 7px;
+  width: 500px;
+}
+
+.form-input.error {
+  border: 1px solid #ec826b;
+}
+.form-alert {
+  background-color: #054f89;
+  border-radius: 5px;
+  padding: 2px 26px;
+  width: 500px;
+  margin-bottom: 7px;
+}
+.form-alert span,
+.form-alert span b {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.textarea {
+  height: 130px;
+  resize: none;
+  margin-bottom: 40px;
+}
+
+.form-input::placeholder {
+  color: #fff;
+  font-weight: 500;
+}
+.textarea::placeholder {
+  color: #fff;
+}
+
+.submit-btn {
+  background-color: #014c87;
+  border-radius: 8px;
+  height: 100px;
+  width: 500px;
+}
+
+.submit-btn p {
+  font-size: 30px;
+  color: #fff;
+}
+.submit-btn img {
+  width: 20px;
+}
+
+.contact-help {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #e7807d;
+  position: relative;
+  z-index: -5;
+  padding-top: 20rem;
+}
+
+.contact-help-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-help-content .title {
+  font-size: 3rem;
+  color: #fff;
+  font-family: "SF-New-Republic";
+  z-index: 34;
+}
+
+.contact-help-cards {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.contact-help-cards .contact-help-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 370px;
+  height: 250px;
+  border-radius: 9px;
+}
+.contact-help-cards .contact-help-card.main-card {
+  background-color: #014c87;
+}
+
+.contact-help-card .divider-contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-help-card .title-help-card {
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #fff;
+}
+.contact-help-card .msg-help-card,
+.contact-help-card .footer-help-card {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.contact-help-content .newsletter {
+  margin-top: 20rem;
+  text-align: center;
+}
+.newsletter .newsletter-title {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 600;
+}
+
+.newsletter .newsletter-subtitle {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.newsletter .newsletter-input {
+  margin-top: 30px;
+  margin-bottom: 90px;
+  font-size: 1.5rem;
+  color: white;
+  border: 1px solid #fff;
+  height: 54px;
+  width: 100rem;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 16px 24px;
+}
+
+.newsletter .newsletter-input::placeholder {
+  color: white;
+}
+
+footer {
+  width: 100%;
+}
+
+footer .footer-content {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+footer .logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+footer .logo .cat {
+  margin-top: -30px;
+}
+
+footer .nav-footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6rem;
+}
+
+footer .nav-footer {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
