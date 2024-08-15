@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="main.js" defer></script>
     <title>Ong Tinie Birds Cats</title>
   </head>
   <body>
@@ -52,7 +53,43 @@
             </a>
           </button>
         </div>
+        <button onclick="menuMobile()" class="menuIcon">
+          <img src="./assets/img/menuIcon.png" alt="menu icon" />
+        </button>
       </nav>
+      <div class="nav-containerMobile">
+        <ul class="navbar-listContainer">
+          <li>
+            <a href="#home" class="nav-listItem">Home</a>
+          </li>
+
+          <li>
+            <a class="pegada nav-listItem" href="#about">
+              <img class="" src="./assets/img/pegada.png" alt="pegada rosa" />
+              Sobre
+            </a>
+          </li>
+
+          <li>
+            <a href="#help" class="nav-listItem">Quero Ajudar</a>
+          </li>
+
+          <li>
+            <a href="#notices" class="nav-listItem">Notícias</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="nav-listItem">Contato</a>
+          </li>
+        </ul>
+
+        <button class="navbar-button">
+          <a href="#help">
+            Quero ajudar
+            <img src="./assets/img/pegada-white.png" alt="Pegada branca" />
+          </a>
+        </button>
+      </div>
     </header>
 
     <main>
@@ -67,7 +104,7 @@
             src="./assets/img/fundo.png"
             alt="Foto de um gato"
           />
-
+          <img class="bg-catMobile" src="/assets/img/bg-catMobile.png" alt="" />
           <div class="content">
             <h1 class="title-h1">
               Doe amor. <br />
@@ -90,7 +127,6 @@
           </div>
         </div>
       </section>
-
       <section id="about">
         <div class="about-header">
           <button><a href="#">Apoie e faça sua parte</a></button>
@@ -217,6 +253,7 @@
               <div class="help-gen">
                 <img src="./assets/img/macho.png" alt="simbolo de macho" />
               </div>
+
               <div class="help-namecat">
                 <h3>Milk</h3>
                 <p>MACHO/FILHOTE</p>
@@ -306,7 +343,6 @@
           />
         </div>
       </section>
-
       <section id="notices">
         <div class="notices-header">
           <h2>Conheça a ONG TinieBird Cats</h2>
@@ -449,7 +485,7 @@
               </div>
               <h3>Rômulo</h3>
               <p>Tutora do Pantera</p>
-              <p>
+              <p class="description-depoimentos">
                 Lorem, ipsum dolor sit amet consectetur <br />adipisicing elit.
                 Distinctio necessitatibus<br />
                 enim ipsum harum cum sit ut voluptate?
@@ -475,7 +511,6 @@
           </div> -->
         </div>
       </section>
-
       <section id="partners">
         <h2 class="partners-title">Nossos parceiros</h2>
         <img
@@ -506,7 +541,6 @@
           src="./assets/img/triangule.svg"
           alt=""
         />
-
         <div class="contact-content">
           <div class="contact-form">
             <p class="contact-form-title">
@@ -597,8 +631,6 @@
         </div>
       </section>
     </main>
-    -->
-
     <footer>
       <div class="footer-content">
         <div class="logo">
